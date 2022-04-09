@@ -1,0 +1,96 @@
+.encabezado{
+display:flex;
+background:linear-gradient( to right, rgba(147, 20, 230),rgb( 209, 3, 234 ),rgb( 234, 3, 178 ));
+border-radius: 10px;
+}
+#logo{
+    width:80px ;
+    height: 80px;
+ margin-top:40px;
+ margin-left:20px;
+}
+#nombre{
+    font-size: 58px;
+    font-family: 'Pacifico', cursive;
+    margin-left:20px;
+    color:#FADEFA;
+}
+.menu{
+    margin-left: 190px;
+}
+.lista{
+    display:flex;
+    text-decoration:none;
+ list-style: none;
+ margin-right: 50px;
+margin-top: 45px;
+font-family: 'Bebas Neue', cursive;
+font-size: 30px;
+color:#FADEFA;
+}
+.articulo{
+    display: flex;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-left: 30px;
+    
+}
+
+#subtitulo{
+    font-size:40px;
+    color:rgba(147, 20, 230);
+    font-family: 'Kaushan Script', cursive;
+}
+.parrafo{
+    font-size: 30px;
+  background:linear-gradient(rgb(243, 111, 6 ),rgb(147, 20, 230));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+
+}
+.boton{
+    width:200px;
+    height:80px;
+    margin-left: 80px;
+    border-width: 3px;
+    border-color:rgb( 234, 3, 178 );
+    border-radius:30px;
+    color:#FADEFA;
+}
+.click{
+    font-size:35px;
+    text-decoration: none;
+    font-family: 'Kaushan Script', cursive;
+    color:rgba(147, 20, 230);
+}
+.redes{
+    display:flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+    font-size:30px;
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(86, 86, 202); 
+}
+.social{
+    width: 40px;
+    height:40px;
+    margin-top:30px;
+    margin-left: 78px;
+}
+.imagen{
+width: 450px;
+height: 450px;
+filter:blur(30%);
+}
+
+.lista:hover{
+    color:rgb(56, 56, 131 ); 
+}
+.boton:hover{
+background-color: #FA9EFC ;}
+.click:hover{
+  color:white;
+}
+.redes:hover{
+    color:black;
+}
