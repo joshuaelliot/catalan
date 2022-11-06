@@ -9,3 +9,6 @@ function comprobar() {
 function pull(){
 console.log("estamos funcionando correctamente");
 }
+
+pull();
+comprobar();
